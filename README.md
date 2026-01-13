@@ -16,6 +16,6 @@ The project uses **CMake** for build configuration and **Make** to automate comp
 
 ## Authors
 
-- Eliane Chaal  
-- Tran Minh Chau Do  
-- Léa Drion  
+- Eliane CHAAL  
+- Tran Minh Chau DO 
+- Léa DRION  
