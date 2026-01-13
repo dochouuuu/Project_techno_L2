@@ -21,9 +21,9 @@ The project uses **CMake** for build configuration, as well as **Make** and **CT
 
 ## Authors
 
-- Eliane Chaal  
-- Tran Minh Chau Do  
-- Léa Drion  
+- Eliane CHAAL  
+- Tran Minh Chau DO 
+- Léa DRION  
 
 ---
 
