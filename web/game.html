@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ********************* html ********************* -->
+
+  <p> Click to start playing !</p>
+
+  <!-- Boutons -->
+
+  <canvas id="gameCanvas" width="500" height="500"></canvas>
+  <div id="buttonBar">
+    <img src="res/train.png">
+    <button onclick="restartButton()"><img src="res/restart.png"></button>
+    <button onclick="solveButton()"><img src="res/solve.png"></button>
+    <button onclick="undoButton()"><img src="res/undo.png"></button>
+    <button onclick="redoButton()"><img src="res/redo.png"></button>
+    <button onclick="openPopup()"><img src="res/random.png"></button>
+  </div>
+
+  <!-- Overlay grisé -->
+  <div id="overlay"></div>
+
+  <!-- Popup -->
+  <div id="popup">
+    <h3>Configurer le jeu aléatoire </h3>
+    <p> Press ENTER to validate </p>
+    <label for="canvasWidth">Largeur :</label>
+    <input type="number" id="canvasWidth" value="5"><br><br>
+
+    <label for="canvasHeight">Hauteur :</label>
+    <input type="number" id="canvasHeight" value="5"><br><br>
+
+    <label for="canvasWrapping">Wrapping :</label>
+    <input type="checkbox" id="canvasWrapping"><br><br>
+
+    <span id="closePopupBtn" class="close-button">x</span>
+  </div>
+
+  <hr>
+  <!-- ********************* script ********************* -->
+
+  <script src="game.js"></script>
+  <script src="demo.js">
+  </script>
+
+</body>
+
+</html>

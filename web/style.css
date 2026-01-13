@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  background-image: url('res/background.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  height: 100vh;
+}
+
+/* Style du canva */
+#canva {
+  margin: 10px;
+}
+
+/* Style des boutons */
+#buttonBar {
+  text-align: center;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  /* évite les retours à la ligne entre éléments */
+}
+
+#buttonBar button {
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  border: none;
+  background: none;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+#buttonBar img {
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#buttonBar button img {
+  margin-top: 10px;
+  display: block;
+  /* enlève l'espace sous l'image */
+}
+
+
+/* Style de l'overlay */
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+
+/* Style du popup */
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  min-width: 400px;
+  min-height: 200px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* Style des inputs et boutons dans le popup */
+#popup input[type="number"],
+#popup input[type="checkbox"] {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#popup button {
+  font-size: 15px;
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
