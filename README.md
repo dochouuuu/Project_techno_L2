@@ -6,8 +6,7 @@ This project is a **single-player puzzle game** inspired by *Net* from **Simon T
 
 The objective of the game is to connect the pieces of a grid to form a coherent network, where each piece must be correctly oriented to establish connections with adjacent pieces.
 
-This branch corresponds to the **initial draft / baseline version** of the project.  
-It contains the **very first files created from scratch**, mainly focused on:
+This branch corresponds to the **initial draft / baseline version** of the project. It contains the **very first files created from scratch**, mainly focused on:
 - defining the core interfaces,
 - setting up the build system,
 - writing **test functions** to validate basic behavior.
