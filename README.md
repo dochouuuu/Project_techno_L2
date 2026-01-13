@@ -2,16 +2,20 @@
 
 ## Description
 
-Ce projet est un jeu de puzzle en solo, inspiré du jeu "Net" de la collection Simon Tatham's Portable Puzzle Collection. Le but du jeu est de connecter les pièces d'une grille pour former un réseau cohérent, où chaque pièce doit être bien orientée pour établir une connexion avec les pièces adjacentes. Le joueur peut tourner les pièces pour résoudre le puzzle.
+This project is a **single-player puzzle game** inspired by *Net* from **Simon Tatham’s Portable Puzzle Collection**.  
+The goal of the game is to connect the pieces of a grid to form a coherent network, where each piece must be correctly oriented to establish connections with its adjacent pieces. The player can rotate the pieces to solve the puzzle.
 
-Ce projet est divisé en plusieurs parties :
-- `game.h` et `game_aux.h` définissent l'interface du jeu, avec des fonctions pour manipuler les pièces, vérifier l'état de la grille, et contrôler les orientations.
-- `game.c` et `game_aux.c` implémentent les fonctions déclarées dans les fichiers d'en-tête.
-- Plusieurs fichiers de test vérifient le bon fonctionnement de chaque partie du jeu.
+The project is divided into several parts:
+- `game.h` and `game_aux.h` define the game interface, including functions to manipulate pieces, check the state of the grid, and control piece orientations.
+- `game.c` and `game_aux.c` implement the functions declared in the header files.
+- Several test files are provided to verify the correct behavior of each part of the game.
 
-Le projet utilise **CMake** pour la gestion de la compilation et **Make** pour automatiser les tests et la construction.
+The project uses **CMake** for build configuration and **Make** to automate compilation and testing.
 
-## Auteurs
-- Eliane CHAAL
-- Tran Minh Chau DO 
-- Léa DRION
+---
+
+## Authors
+
+- Eliane Chaal  
+- Tran Minh Chau Do  
+- Léa Drion  
